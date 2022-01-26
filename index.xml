@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Welcome!</title>
+    <link>http://denglerchr.github.io/</link>
+    <description>Recent content on Welcome!</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="http://denglerchr.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Welcome</title>
+      <link>http://denglerchr.github.io/aboutme/</link>
+      <pubDate>Wed, 26 Jan 2022 17:51:17 +0100</pubDate>
+      
+      <guid>http://denglerchr.github.io/aboutme/</guid>
+      <description>Nothing here yet, just trying out the website creation thingy. This page will most likely die unmaintained.
+Here is some code from https://plotly.com/julia/bubble-charts/
+1 2 3 4 5 6 7 8 9 10 11  using PlotlyJS, CSV, DataFrames df = dataset(DataFrame, &amp;#34;gapminder&amp;#34;) df07 = df[df.year .== 2007, :] plot( df07, x=:gdpPercap, y=:lifeExp, color=:continent , mode=&amp;#34;markers&amp;#34;, marker=attr(size=:pop, sizeref=maximum(df07.pop) / (60^2), sizemode=&amp;#34;area&amp;#34;), Layout(xaxis_type=&amp;#34;log&amp;#34;) )       Plotly.d3.json(&#34;/plotly/test.json&#34;, function(err, fig) { Plotly.</description>
+    </item>
+    
+  </channel>
+</rss>
